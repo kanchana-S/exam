@@ -1,0 +1,14 @@
+2T Java chat application
+
+cd Desktop
+javac MultiThreadChatServer.java
+java MultiThreadChatServer
+
+OAT
+cd Desktop
+javac MultiThreadChatClient.java
+java MultiThreadChatClient
+
+OAT for chat
+javac MultiThreadChatClient.java
+java MultiThreadChatClient

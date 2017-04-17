@@ -1,0 +1,24 @@
+3RPC UPPER TO LOWER
+
+
+
+cd Desktop
+rpcgen -a -C conversion.x
+
+(change makefile)
+-g -C -DRPC_SVC_FG
+=-C
+
+save
+
+make changes in conversion_client.c
+make changes in conversion_server.c
+
+continue..
+rpcgen . . .
+make -f Makefile.conversion
+./conversion_server
+
+OAT
+ cd Desktop
+./conversion_client 127.0.0.1

@@ -1,0 +1,21 @@
+1RMI
+cd Desktop
+cd EXAM
+cd 1RMI
+javac Client.java
+javac Servant.java
+javac Server.java
+javac ServerInterface.java
+rmiregistry&
+OAT
+cd Desktop
+cd EXAM
+cd 1RMI
+java Server
+OAT
+cd Desktop
+cd EXAM
+cd 1RMI
+java Client
+(enter the server address 127.0.0.1)
+

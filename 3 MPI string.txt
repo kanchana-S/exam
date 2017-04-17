@@ -1,0 +1,14 @@
+3MPI
+cd Desktop
+cd 3MPI
+mpicc server.c -o server
+mpicc client.c -o client
+mpirun -np 1 ./server 
+(port number will be generated copy that )
+
+open new terminal
+cd Desktop
+cd 3MPI
+  mpirun -np 1 ./client 'paste that port number'
+
+

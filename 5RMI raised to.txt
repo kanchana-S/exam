@@ -1,0 +1,14 @@
+5RMI raised to
+cd Desktop
+javac Client.java
+javac Server.java
+javac ServerInterface.java
+rmiregistry&
+
+OAT 
+cd Desktop
+java Server
+
+OAT
+cd Desktop
+java Client 127.0.0.1

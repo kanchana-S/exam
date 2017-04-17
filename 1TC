@@ -1,0 +1,8 @@
+cd Desktop
+gcc tcp_server.c -pthread -o server
+./server
+
+OAT
+cd Desktop
+gcc client.c
+./a.out

@@ -1,0 +1,9 @@
+3T Arithmetic
+
+cd Desktop
+gcc -o server tcp_server.c -lpthread
+./server
+
+OAT
+gcc -o client client.c
+./client

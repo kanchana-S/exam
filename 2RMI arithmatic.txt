@@ -1,0 +1,16 @@
+2RMI arithmetic
+Cd Desktop
+javac MathClient.java
+javac MathServer.java
+javac MathClientImpl.java
+javac MathClientIntf.java
+rmiregistry&
+
+OAT
+Cd Desktop
+Java MathServer
+
+OAT
+Cd Desktop
+Java MathClient 127.0.0.1
+

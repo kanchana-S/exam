@@ -1,0 +1,17 @@
+4RMI calculator
+
+cd Desktop
+javac AddClient.java
+javac AddServerImpl.java
+java AddServantImpl.java
+rmiregistry&
+
+OAT
+
+cd Desktop
+java AddServerImpl
+
+OAT
+
+cd Desktop
+java AddClient

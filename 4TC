@@ -1,0 +1,10 @@
+4T Factorial
+
+cd Desktop
+gcc -o server server.c -lpthread
+./server
+
+OAT
+
+gcc -o client client.c
+./client

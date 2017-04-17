@@ -1,0 +1,11 @@
+6T ULcase
+
+cd Desktop
+gcc -o server tcp_server.c -lpthread
+./server
+
+OAT
+
+gcc -o client client.c
+./client
+

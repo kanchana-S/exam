@@ -1,0 +1,23 @@
+RPC 2 arithm
+
+(operation.x)
+cd Desktop
+rpcgen -a -C operation.x
+
+(change makefile)
+-g -C -DRPC_SVC_FG
+=-C
+
+save
+
+make changes in operation_client.c
+make changes in operation_server.c
+
+continue..
+rpcgen . . .
+make -f Makefile.operation
+./operation_server
+
+OAT
+ cd Desktop
+./operation_client 127.0.0.1

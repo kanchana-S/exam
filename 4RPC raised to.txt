@@ -1,0 +1,23 @@
+RPC 4 raised to
+
+
+cd Desktop
+rpcgen -a -C mod.x
+
+(makefile open with gedit and change makefile)
+-g -C -DRPC_SVC_FG
+=-C
+
+save
+
+make changes in mod_client.c
+make changes in mod_server.c
+
+continue..
+rpcgen . . .
+make -f Makefile.mod
+./mod_server
+
+OAT
+ cd Desktop
+./mod_client 127.0.0.1

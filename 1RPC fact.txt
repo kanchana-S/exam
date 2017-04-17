@@ -1,0 +1,23 @@
+RPC 1 Factorial
+
+(factorial.x)
+cd Desktop
+rpcgen -a -C factorial.x
+
+(change makefile)
+-g -C -DRPC_SVC_FG
+=-C
+
+save
+
+make changes in client.c
+make changes in server.c
+
+continue..
+rpcgen . . .
+make -f Makefile.factorial
+./factorial_server
+
+OAT
+ cd Desktop
+./factorial_client 127.0.0.1
