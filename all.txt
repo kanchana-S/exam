@@ -1,0 +1,9 @@
+
+1.https://github.com/kanchanagore/exam/blob/master/cassandra.txt
+2.https://github.com/kanchanagore/exam/blob/master/dynamodb%20start.txt
+3.https://github.com/kanchanagore/exam/blob/master/jdo.txt
+4.https://github.com/kanchanagore/exam/blob/master/kmeans.java
+5.https://github.com/kanchanagore/exam/blob/master/pagerank.java
+6.https://github.com/kanchanagore/exam/blob/master/patitioning.txt
+7.https://github.com/kanchanagore/exam/blob/master/twophase.txt
+8.https://github.com/kanchanagore/exam/blob/master/xml.txt
