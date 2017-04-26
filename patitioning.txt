@@ -1,0 +1,17 @@
+go to the folder where cassandra is saved and go to bin enter the path
+./cassandra
+
+
+
+
+
+==oat
+same path
+cqlsh
+
+open eclipse
+new project
+copy the partitionoing.java code into src folder
+go to project name 
+build path - configure path - libraries- add external jar - 12 jar files add 
+run 

@@ -1,0 +1,10 @@
+cd Desktop
+cd dynamodb
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+open chrome
+
+localhost:8000/shell/
+
+
+

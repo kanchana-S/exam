@@ -1,0 +1,51 @@
+cassandra 10 queries
+cqlsh
+
+CREATE KEYSPACE
+create KEYSPACE student WITH replication = {'class':'SimpleStrategy','replication_factor':1};
+
+Use keyspace name
+
+CREATE TABLE
+create TABLE Student(rollno int PRIMARY KEY,name text,branch text,year int);
+
+INSERT
+insert into Student(rollno,name,branch,year)values(1,'rachana','IT',4);
+select * from Student;
+
+ALTER 
+alter table Student add rank int;
+select * from Student;
+
+READ DATA 
+SELECT branch,name from Student;
+
+CREATE INDEX
+CREATE INDEX stud_name ON Student(name);
+select * from Student;
+
+UPDATE
+UPDATE Student SET branch='elex' WHERE rollno=4;
+
+BATCH
+BEGIN BATCH
+insert into Student(rollno,name,branch,year,rank)values(9,'shubham','it',3,10);
+UPDATE Student SET branch='mech' WHERE rollno=4;
+APPLY BATCH;
+
+select * from Student;
+
+
+
+
+
+
+
+
+DROP
+DROP table restaurant;
+
+TRUNCATE restaurant;
+BATCH
+
+ 

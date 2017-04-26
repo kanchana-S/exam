@@ -1,0 +1,57 @@
+for $x in
+doc("Student.xml")/Student/Student_Info
+where 
+$x/name='Ankita Urade'
+return 
+$x
+
+
+for $x in
+doc("Student.xml")/Student/Student_Info
+where 
+$x/name='Ankita Urade'
+return $x
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <Student_Info>
+        <roll_no>62.00</roll_no>
+        <name>Steffi Zachariah</name>
+        <branch>IT </branch>
+        <address>Wadgaonsheri</address>
+        <year>BE</year>
+    </Student_Info>
+    
+    <Student_Info>
+        <roll_no> 61.00 </roll_no>
+        <name>Ankita Urade</name>
+        <branch>IT </branch>
+        <address>BBalewadi</address>
+        <year>BE</year>
+    </Student_Info>
+    
+    <Student_Info>
+        <roll_no>83.00 </roll_no>
+        <name>Rachana Badekar</name>
+        <branch>IT </branch>
+        <address>Dapodi</address>
+        <year>BE</year>
+    </Student_Info>
+    
+    <Student_Info>
+        <roll_no>58.00 </roll_no>
+        <name>Rutuja Hirve</name>
+        <branch>IT </branch>
+        <address>Shivaji Nagar</address>
+        <year>BE</year>
+    </Student_Info>
+    
+    <Student_Info>
+        <roll_no> 25.00 </roll_no>
+        <name>Neeraj Raut</name>
+        <branch>IT </branch>
+        <address>Pune</address>
+        <year>BE</year>
+    </Student_Info>
+</Student>

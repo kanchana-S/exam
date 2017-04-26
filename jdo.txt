@@ -1,0 +1,20 @@
+jdo 
+
+after compling file main.java and student.java 
+
+open terminal
+
+copy path of objectdb folder till bin
+
+java -jar explorer.jar
+
+objectdb explorer window opens:
+
+go to {bottom}query (main java)
+
+there will be one query textbox
+
+paste the query from eclipse code from main.java to the query textbox
+  
+press execute
+
